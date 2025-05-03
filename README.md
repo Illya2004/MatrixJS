@@ -6,4 +6,4 @@ The `Matrix` class represents a 2D matrix-like data structure with custom logic 
 
 Kindly attention! Download the necessary library.
 
-```git init lodash```
+```npm init lodash```
