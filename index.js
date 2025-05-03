@@ -111,7 +111,7 @@ export default class Matrix {
 
             return this.map.get(this.currentX.toString() + this.currentY.toString());
         } else if (this.status == "SET") {
-            return (value) => this.value(value); // Додай виклик
+            return (value) => this.value(value);
         }
 
 
@@ -124,7 +124,7 @@ export default class Matrix {
 
     #maxSizeLimit(x, y) {
         if (x !== undefined) {
-            if (x >= this.sizeX) throw new Error("X out of bounds"); // <--- тут
+            if (x >= this.sizeX) throw new Error("X out of bounds");
             return true;
         }
 
