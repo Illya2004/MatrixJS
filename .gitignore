@@ -1,0 +1,36 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Output directories
+dist/
+build/
+coverage/
+.next/
+.out/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*.local
+
+# IDE-specific
+.idea/
+*.iml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# WebStorm working files
+*.sublime-workspace
+*.code-workspace
+
+# Optional: OS-specific files
+*.swp
+*~
